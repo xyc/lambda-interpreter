@@ -85,5 +85,23 @@ interp = (exp)->
 
 # TODO: support the other syntax
 # (interp '(((lambda (x) (lambda (y) (* x y))) 2) 3))
+#
+###
+{
+  apply:
+    apply:
+      lambda:
+        0: x
+        1:
+          lambda:
+            0: y
+            1:
+              *:
+                0: x
+                1: y
+      var: 2
+    var: 3
+}
+###
 
 module.exports = interp
