@@ -1,2 +1,2 @@
 # lambda-interpreter
-Untyped Lambda Calculus Interpreter
+Uni-typed Interpreter
